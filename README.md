@@ -7,3 +7,7 @@ This Temporal workflow processes calls from an AI Voice assistant and performs t
 - trigger retroactive actions based on the audit
 
 The workflow is triggered by a call ending event from the Voice AI platform.
+
+Components:
+- Input: AI voice call object i.e. Vapi
+- Schema: Zod Typescript schema to define LLM response
