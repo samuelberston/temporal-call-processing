@@ -10,11 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@supabase/supabase-js": "^2.47.10",
     "@temporalio/activity": "^1.11.5",
     "@temporalio/client": "^1.11.5",
     "@temporalio/worker": "^1.11.5",
     "@temporalio/workflow": "^1.11.5",
     "@vapi-ai/server-sdk": "^0.1.0",
+    "dotenv": "^16.4.7",
+    "newrelic": "^12.9.0",
     "openai": "^4.77.0",
     "zod": "^3.24.1"
   },
