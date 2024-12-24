@@ -10,4 +10,6 @@ The workflow is triggered by a call ending event from the Voice AI platform.
 
 Components:
 - Input: AI voice call object i.e. Vapi
-- Schema: Zod Typescript schema to define LLM response
+- Schema: Zod Typescript schema to define LLM classification response
+- Agents: classification, action QA
+- Data: action logs database
