@@ -1,5 +1,5 @@
 // Import OpenAI, Supabase, New Relic
-import { callClassificationAssistant } from "../openai/assistants.openai";
+import { callClassificationAssistant } from "../assistants";
 
 
 // classify call activity
